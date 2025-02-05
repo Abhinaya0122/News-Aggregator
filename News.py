@@ -21,4 +21,4 @@ if response.status_code == 200:
         print(f"Description: {article['description']}")
         print(f"URL: {article['url']}\n")
 else:
-    print(f"Failed to fetch news: {response.status_code}")
+    print(f"Failed to fetch: {response.status_code}")
