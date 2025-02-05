@@ -1,6 +1,4 @@
 import requests
-
-# Define the API key and endpoint
 api_key = '24863e1e753b4669b1c7950726c4c511'
 url = 'https://newsapi.org/v2/top-headlines'
 
